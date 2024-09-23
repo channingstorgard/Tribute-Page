@@ -1,0 +1,31 @@
+/* Ensure the image is responsive */
+#image {
+  max-width: 100%; /* Prevents the image from exceeding the width of its parent */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; /* Centers the image */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Center the img-div container */
+#img-div {
+  text-align: center; /* Centers child elements horizontally */
+}
+
+/* Ensure the main content is styled */
+#main {
+  width: 80%;
+  margin: 0 auto; /* Centers the main content */
+  text-align: center; /* Centers the text */
+  padding: 20px; /* Adds some padding around the content */
+}
+
+#tribute-info {
+  margin-top: 20px; /* Adds some space between the content sections */
+}
+
+/* Style for the link */
+#tribute-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold; /* Makes the link more prominent */
+}
